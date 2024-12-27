@@ -9,12 +9,15 @@ for (i = 1; i <= 16 * 16; i++) {
 
 // userColorChoice = prompt("select a colour, spell it right lad");
 
+function colorChange() {
 const divs = document.querySelectorAll('.divs');
 divs.forEach((div) => {
     div.addEventListener('mouseover', () =>
     div.style.backgroundColor = 'purple');
     
 });
+};
+colorChange();
 
 const buttons = document.querySelector('button');
 buttons.addEventListener('click', () => {
@@ -26,6 +29,7 @@ buttons.addEventListener('click', () => {
         const gridCreate = document.createElement("div");
         gridCreate.className = 'divs';
         newContainer.appendChild(gridCreate);
+        colorChange();
         }
     }
 });
