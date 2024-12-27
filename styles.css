@@ -10,7 +10,7 @@
     margin: auto; 
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
+    max-height: 960px;
     max-height: 960px;
 }
 
@@ -26,9 +26,6 @@ button {
 }
 
 .divs {
-    
-    /* display: flex;
-    justify-content: center; */
     border: solid black 1px;
     height: 60px;
     width: 60px;

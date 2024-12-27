@@ -28,8 +28,9 @@ buttons.addEventListener('click', () => {
         const gridCreate = document.createElement("div");
         gridCreate.className = 'divs';
         newContainer.appendChild(gridCreate);
-        colorChange();
         }
+        colorChange();
+        
     }
 });
 
